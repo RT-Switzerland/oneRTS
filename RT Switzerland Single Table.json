@@ -1,0 +1,789 @@
+{
+  "type": "layout",
+  "children": [
+	{
+	  "type": "section",
+	  "props": {
+		"image_position": "center-center",
+		"padding": "large",
+		"style": "default",
+		"title_breakpoint": "xl",
+		"title_position": "top-left",
+		"title_rotation": "left",
+		"vertical_align": "middle",
+		"width": "default"
+	  },
+	  "children": [
+		{
+		  "type": "row",
+		  "children": [
+			{
+			  "type": "column",
+			  "props": {
+				"image_position": "center-center",
+				"position_sticky_breakpoint": "m",
+				"width_medium": "expand"
+			  },
+			  "children": [
+				{
+				  "type": "headline",
+				  "props": {
+					"title_element": "h1",
+					"title_color": "background",
+					"title_style": "heading-small"
+				  },
+				  "source": {
+					"query": {
+					  "name": "databaseRecord_0619D6_query",
+					  "arguments": {
+						"offset": 0,
+						"filters": [
+						  {
+							"props": {
+							  "relation": "swiss_tables_details",
+							  "operator": "=",
+							  "field": "tb_code",
+							  "_meta": {
+								"fields": {
+								  "field": {
+									"name": "Tb Code"
+								  }
+								}
+							  },
+							  "value": "RT1"
+							}
+						  }
+						],
+						"mode": "AND"
+					  }
+					},
+					"props": {
+					  "content": {
+						"filters": {
+						  "search": ""
+						},
+						"name": "tb_name"
+					  }
+					}
+				  }
+				}
+			  ]
+			},
+			{
+			  "type": "column",
+			  "props": {
+				"image_position": "center-center",
+				"position_sticky_breakpoint": "m",
+				"vertical_align": "bottom",
+				"width_medium": "large"
+			  },
+			  "children": [
+				{
+				  "type": "image",
+				  "props": {
+					"image_svg_color": "emphasis",
+					"image_width": "60px",
+					"margin": "default",
+					"text_align": "right"
+				  },
+				  "source": {
+					"props": {
+					  "image": {
+						"filters": {
+						  "search": "",
+						  "after": ".png",
+						  "before": "/rondells/"
+						},
+						"name": "tb_code"
+					  }
+					},
+					"query": {
+					  "name": "databaseRecord_0619D6_query",
+					  "arguments": {
+						"offset": 0,
+						"filters": [
+						  {
+							"props": {
+							  "relation": "swiss_tables_details",
+							  "operator": "=",
+							  "field": "tb_code",
+							  "_meta": {
+								"fields": {
+								  "field": {
+									"name": "Tb Code"
+								  }
+								}
+							  },
+							  "value": "RT1"
+							}
+						  }
+						],
+						"mode": "AND"
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		  ],
+		  "props": {
+			"layout": "expand,large"
+		  }
+		}
+	  ],
+	  "name": "Hero"
+	},
+	{
+	  "type": "section",
+	  "props": {
+		"css": ".el-section > [class*='uk-background-'] { min-height: 55vh; }",
+		"image_effect": "parallax",
+		"image_loading": true,
+		"image_parallax_bgy": "50,-50",
+		"image_parallax_breakpoint": "m",
+		"image_parallax_easing": "1",
+		"image_position": "center-center",
+		"image_size": "cover",
+		"image_width": "2560",
+		"padding": "xlarge",
+		"style": "default",
+		"title_breakpoint": "xl",
+		"title_position": "top-left",
+		"title_rotation": "left",
+		"vertical_align": "middle",
+		"width": "default"
+	  },
+	  "children": [
+		{
+		  "type": "row",
+		  "children": [
+			{
+			  "type": "column",
+			  "props": {
+				"image_position": "center-center",
+				"position_sticky_breakpoint": "m",
+				"width_medium": "1-1"
+			  }
+			}
+		  ],
+		  "props": []
+		}
+	  ],
+	  "name": "Image",
+	  "source_extended": {
+		"props": {
+		  "image": {
+			"filters": {
+			  "search": ""
+			},
+			"name": "featuredImage.url",
+			"query": {
+			  "name": "pages.singlePage"
+			}
+		  }
+		}
+	  },
+	  "source": {}
+	},
+	{
+	  "type": "section",
+	  "props": {
+		"id": "about",
+		"image_position": "center-center",
+		"padding": "large",
+		"padding_remove_bottom": true,
+		"style": "default",
+		"title_breakpoint": "xl",
+		"title_position": "top-left",
+		"title_rotation": "left",
+		"vertical_align": "middle",
+		"width": "default"
+	  },
+	  "children": [
+		{
+		  "type": "row",
+		  "props": {
+			"column_gap": "large",
+			"layout": "1-4,1-2,1-4"
+		  },
+		  "children": [
+			{
+			  "type": "column",
+			  "props": {
+				"image_position": "center-center",
+				"position_sticky_breakpoint": "m",
+				"width_medium": "1-4"
+			  },
+			  "children": [
+				{
+				  "type": "headline",
+				  "props": {
+					"title_color": "primary",
+					"title_element": "h2",
+					"title_style": "h3",
+					"yooessentials_access_conditions": [],
+					"yooessentials_access_mode": "AND"
+				  },
+				  "source": {
+					"props": {
+					  "content": {
+						"filters": {
+						  "search": ""
+						},
+						"name": "tb_name",
+						"query": {
+						  "name": "~global:4FCA42"
+						}
+					  }
+					},
+					"query": {
+					  "name": "databaseRecord_0619D6_query",
+					  "arguments": {
+						"offset": 0,
+						"filters": [
+						  {
+							"props": {
+							  "relation": "swiss_tables_details",
+							  "operator": "=",
+							  "field": "tb_code",
+							  "_meta": {
+								"fields": {
+								  "field": {
+									"name": "Tb Code"
+								  }
+								}
+							  },
+							  "value": "RT1"
+							}
+						  }
+						],
+						"mode": "AND"
+					  }
+					}
+				  }
+				},
+				{
+				  "type": "list",
+				  "props": {
+					"column_breakpoint": "m",
+					"image_align": "left",
+					"image_svg_color": "emphasis",
+					"image_vertical_align": true,
+					"link_style": "muted",
+					"list_element": "ul",
+					"list_horizontal_separator": ", ",
+					"list_size": "collapse",
+					"list_type": "vertical",
+					"show_image": true,
+					"show_link": true
+				  },
+				  "children": [
+					{
+					  "type": "list_item",
+					  "props": {
+						"link": ""
+					  },
+					  "source_extended": {
+						"props": {
+						  "content": {
+							"name": "tb_foundation",
+							"query": {
+							  "name": "~closest"
+							},
+							"filters": {
+							  "search": "",
+							  "date": "Y",
+							  "before": "Gegründet "
+							}
+						  }
+						}
+					  }
+					}
+				  ],
+				  "source": {
+					"query": {
+					  "name": "databaseRecord_0619D6_query",
+					  "arguments": {
+						"offset": 0,
+						"filters": [
+						  {
+							"props": {
+							  "relation": "swiss_tables_details",
+							  "operator": "=",
+							  "field": "tb_code",
+							  "_meta": {
+								"fields": {
+								  "field": {
+									"name": "Tb Code"
+								  }
+								}
+							  },
+							  "value": "RT1"
+							}
+						  }
+						],
+						"mode": "AND"
+					  }
+					}
+				  }
+				},
+				{
+				  "type": "social",
+				  "props": {
+					"grid": "horizontal",
+					"grid_gap": "small",
+					"icon_width": 16,
+					"image_svg_inline": true,
+					"link_style": "",
+					"margin": "default"
+				  },
+				  "children": [
+					{
+					  "type": "social_item",
+					  "props": {},
+					  "source_extended": {
+						"props": {
+						  "link": {
+							"name": "tb_fb",
+							"query": {
+							  "name": "~closest"
+							}
+						  }
+						}
+					  }
+					},
+					{
+					  "type": "social_item",
+					  "props": {},
+					  "source_extended": {
+						"props": {
+						  "link": {
+							"name": "tb_insta",
+							"query": {
+							  "name": "~closest"
+							}
+						  }
+						}
+					  }
+					}
+				  ],
+				  "source": {
+					"query": {
+					  "name": "databaseRecord_0619D6_query",
+					  "arguments": {
+						"offset": 0,
+						"filters": [
+						  {
+							"id": "EB00A9",
+							"props": {
+							  "relation": "swiss_tables_details",
+							  "operator": "=",
+							  "field": "tb_code",
+							  "_meta": {
+								"fields": {
+								  "field": {
+									"name": "Tb Code"
+								  }
+								}
+							  },
+							  "value": "RT1"
+							}
+						  }
+						],
+						"mode": "AND"
+					  }
+					}
+				  }
+				}
+			  ]
+			},
+			{
+			  "type": "column",
+			  "props": {
+				"image_position": "center-center",
+				"position_sticky_breakpoint": "m",
+				"width_medium": "1-2"
+			  },
+			  "children": [
+				{
+				  "type": "grid",
+				  "props": {
+					"content_column_breakpoint": "m",
+					"content_margin": "small",
+					"content_style": "h3",
+					"filter_align": "left",
+					"filter_all": true,
+					"filter_grid_breakpoint": "m",
+					"filter_grid_width": "auto",
+					"filter_position": "top",
+					"filter_style": "tab",
+					"grid_column_gap": "medium",
+					"grid_default": "2",
+					"grid_medium": "",
+					"grid_row_gap": "medium",
+					"icon_ratio": 4,
+					"icon_width": 80,
+					"image_align": "top",
+					"image_grid_breakpoint": "m",
+					"image_grid_width": "1-2",
+					"image_svg_color": "emphasis",
+					"image_width": "440",
+					"item_animation": true,
+					"link_style": "default",
+					"link_text": "Read more",
+					"margin": "default",
+					"meta_align": "below-title",
+					"meta_element": "div",
+					"meta_margin": "small",
+					"meta_style": "text-meta",
+					"parallax_easing": "1",
+					"show_content": true,
+					"show_image": true,
+					"show_link": true,
+					"show_meta": true,
+					"show_title": true,
+					"title_align": "top",
+					"title_color": "primary",
+					"title_element": "div",
+					"title_grid_breakpoint": "m",
+					"title_grid_width": "1-2",
+					"title_hover_style": "reset",
+					"title_margin": "small",
+					"title_style": "h4"
+				  },
+				  "children": [
+					{
+					  "type": "grid_item",
+					  "props": {
+						"image": "",
+						"meta": "",
+						"title": "Präsident"
+					  },
+					  "source_extended": {
+						"props": {
+						  "content": {
+							"name": "tb_president",
+							"query": {
+							  "name": "~closest"
+							}
+						  }
+						}
+					  }
+					},
+					{
+					  "type": "grid_item",
+					  "props": {
+						"image": "",
+						"meta": "",
+						"title": "Vize-Präsident"
+					  },
+					  "source_extended": {
+						"props": {
+						  "content": {
+							"name": "tb_vp",
+							"query": {
+							  "name": "~closest"
+							}
+						  }
+						}
+					  }
+					}
+				  ],
+				  "source": {
+					"query": {
+					  "name": "databaseRecord_0619D6_query",
+					  "arguments": {
+						"offset": 0,
+						"filters": [
+						  {
+							"props": {
+							  "relation": "swiss_tables_details",
+							  "operator": "=",
+							  "field": "tb_code",
+							  "_meta": {
+								"fields": {
+								  "field": {
+									"name": "Tb Code"
+								  }
+								}
+							  },
+							  "value": "RT1"
+							}
+						  }
+						],
+						"mode": "AND"
+					  }
+					}
+				  }
+				},
+				{
+				  "type": "text",
+				  "props": {
+					"column_breakpoint": "m",
+					"margin": "medium",
+					"text_color": "secondary",
+					"text_style": "large"
+				  },
+				  "source": {
+					"props": {
+					  "content": {
+						"filters": {
+						  "search": ""
+						},
+						"name": "tb_description",
+						"query": {
+						  "name": "~global:4FCA42"
+						}
+					  }
+					},
+					"query": {
+					  "name": "databaseRecord_0619D6_query",
+					  "arguments": {
+						"offset": 0,
+						"filters": [
+						  {
+							"props": {
+							  "relation": "swiss_tables_details",
+							  "operator": "=",
+							  "field": "tb_code",
+							  "_meta": {
+								"fields": {
+								  "field": {
+									"name": "Tb Code"
+								  }
+								}
+							  },
+							  "value": "RT1"
+							}
+						  }
+						],
+						"mode": "AND"
+					  }
+					}
+				  }
+				}
+			  ]
+			},
+			{
+			  "type": "column",
+			  "props": {
+				"image_position": "center-center",
+				"position_sticky_breakpoint": "m",
+				"width_medium": "1-4"
+			  },
+			  "children": [
+				{
+				  "type": "headline",
+				  "props": {
+					"content": "Adresse",
+					"title_element": "h3",
+					"title_style": "h4"
+				  }
+				},
+				{
+				  "type": "list",
+				  "props": {
+					"column_breakpoint": "m",
+					"image_align": "left",
+					"image_svg_color": "emphasis",
+					"image_vertical_align": true,
+					"link_style": "muted",
+					"list_element": "ul",
+					"list_horizontal_separator": ", ",
+					"list_size": "collapse",
+					"list_type": "vertical",
+					"margin": "medium",
+					"margin_remove_top": true,
+					"show_image": true,
+					"show_link": true
+				  },
+				  "children": [
+					{
+					  "type": "list_item",
+					  "props": {},
+					  "source_extended": {
+						"props": {
+						  "content": {
+							"name": "tb_location",
+							"query": {
+							  "name": "~closest"
+							}
+						  }
+						}
+					  }
+					},
+					{
+					  "type": "list_item",
+					  "props": {},
+					  "source_extended": {
+						"props": {
+						  "content": {
+							"name": "tb_address",
+							"query": {
+							  "name": "~closest"
+							}
+						  }
+						}
+					  }
+					},
+					{
+					  "type": "list_item",
+					  "props": {},
+					  "source_extended": {
+						"props": {
+						  "content": {
+							"name": "tb_zip_town",
+							"query": {
+							  "name": "~closest"
+							}
+						  }
+						}
+					  }
+					}
+				  ],
+				  "source": {
+					"query": {
+					  "name": "databaseRecord_0619D6_query",
+					  "arguments": {
+						"offset": 0,
+						"filters": [
+						  {
+							"props": {
+							  "relation": "swiss_tables_details",
+							  "operator": "=",
+							  "field": "tb_code",
+							  "_meta": {
+								"fields": {
+								  "field": {
+									"name": "Tb Code"
+								  }
+								}
+							  },
+							  "value": "RT1"
+							}
+						  }
+						],
+						"mode": "AND"
+					  }
+					}
+				  }
+				},
+				{
+				  "type": "list",
+				  "props": {
+					"column_breakpoint": "m",
+					"image_align": "left",
+					"image_svg_color": "emphasis",
+					"image_vertical_align": true,
+					"link_style": "text",
+					"list_element": "ul",
+					"list_horizontal_separator": ", ",
+					"list_size": "collapse",
+					"list_type": "vertical",
+					"show_image": true,
+					"show_link": true
+				  },
+				  "children": [
+					{
+					  "type": "list_item",
+					  "props": {
+						"icon": "mail",
+						"icon_color": "primary",
+						"link": "mailto:info@example.com"
+					  },
+					  "source_extended": {
+						"props": {
+						  "content": {
+							"name": "tb_mail",
+							"query": {
+							  "name": "~closest"
+							}
+						  }
+						}
+					  }
+					},
+					{
+					  "type": "list_item",
+					  "props": {
+						"icon": "world",
+						"icon_color": "primary",
+						"link": "https://www.example.com"
+					  },
+					  "source_extended": {
+						"props": {
+						  "content": {
+							"name": "tb_web",
+							"query": {
+							  "name": "~closest"
+							}
+						  }
+						}
+					  }
+					}
+				  ],
+				  "source": {
+					"query": {
+					  "name": "databaseRecord_0619D6_query",
+					  "arguments": {
+						"offset": 0,
+						"filters": [
+						  {
+							"props": {
+							  "relation": "swiss_tables_details",
+							  "operator": "=",
+							  "field": "tb_code",
+							  "_meta": {
+								"fields": {
+								  "field": {
+									"name": "Tb Code"
+								  }
+								}
+							  },
+							  "value": "RT1"
+							}
+						  }
+						],
+						"mode": "AND"
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		  ]
+		}
+	  ],
+	  "name": "About"
+	},
+	{
+	  "type": "section",
+	  "props": {
+		"image_position": "center-center",
+		"style": "default",
+		"title_breakpoint": "xl",
+		"title_position": "top-left",
+		"title_rotation": "left",
+		"vertical_align": "middle",
+		"width": "default"
+	  },
+	  "children": [
+		{
+		  "type": "row",
+		  "children": [
+			{
+			  "type": "column",
+			  "props": {
+				"image_position": "center-center",
+				"position_sticky_breakpoint": "m"
+			  }
+			}
+		  ],
+		  "props": []
+		}
+	  ]
+	}
+  ],
+  "version": "4.0.7",
+  "modified": "2023-08-28T16:52:31.002Z",
+  "name": "RT Single Page"
+}
